@@ -1,3 +1,5 @@
+#![cfg_attr(not(showconsole), windows_subsystem = "windows")]
+
 use std::env;
 
 mod cbs;
